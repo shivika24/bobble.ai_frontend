@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+    font-family: Lato, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 1.5rem auto;
+}
+.App-header {
+    margin-top: 0;
+    background-color: #ffffff;
+    height: 90px;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    box-shadow: 0 3px 10px grey;
+  }
+
+.page-wrapper {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+.logo-container {
+    border-radius: 0.4rem;
+    box-shadow: 0px 5px 5px 4px rgba(119, 119, 119, 0.3);
+    width: 100%;
+}
+
+.sign-up-wrapper {
+    border-radius: 0.4rem;
+    box-shadow: 0px 5px 5px 4px rgba(119, 119, 119, 0.3);
+    padding: 5px 5px;
+}
+
+.top-heading {
+    font-size: 16px;
+    color: gray;
+}
+
+.mainHeading {
+    font-size: 30px;
+    font-weight: 400;
+    color: #525151;
+}
+
+.subtext {
+    font-size: 14px;
+    color: gray;
+}
+
+.sign-up-header div.sign-up-btn {
+    display: inline;
+    margin: 0.5rem 0.4rem;
+}
+.sign-up-btn:hover {
+    color: #248df6;
+    border: 2px solid #248df6;
+    box-shadow: 0px 3px 3px 2px rgba(119, 119, 119, 0.3);
+}
+.mainbtn {
+    background-color: #3174bc;
+    color: white;
+}
+.fa-facebook-square {
+    color: #034384;
+    margin-right: 7px;
+}   
+.sign-up-header hr {
+    color: black;
+}
+
+div.form-group {
+    padding: 0.2rem 1.2rem;
+}
+
+div.form-group button {
+    border-radius: 0.4rem;
+    width: 100%;
+}
+.sign-up-btn {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #afafaf;
+   
+}
+#i11{
+    margin-left: 3%;
+}
+@media only screen and (max-width: 600px) {
+    .sign-up-btn {
+      width: 71vw;
+      margin-top: 10px;
+      
+    }
+    #i11 {
+        margin-left: 0%;
+    }
+  }
+
